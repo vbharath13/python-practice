@@ -58,7 +58,7 @@ elif word == "":
     print("You didn't enter anything.")
 else:
     print("Access denied.")
-print(f"You entered {word1}, {word2}, {word3} and {word4}.")
+
 
 
  
