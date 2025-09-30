@@ -28,6 +28,38 @@ no_space = input("Enter a word: ")
 yes_space = no_space + " "
 print(yes_space*999 + no_space)
 
+#adding two values
+first = input("Enter a word: ")
+second = input("Enter another word: ")
+words = first + " " + second + " "
+print(words * 1000)
+
+#We can compare the word against an empty string (`""` or `''`) to
+#check if it's empty. In this example, the password is "seKr3t".
+
+ 
+word = input("Enter your password: ")
+
+if word == "seKr3t":
+    print("Welcome!")
+elif word == "":
+    print("You didn't enter anything.")
+else:
+    print("Access denied.")
+
+#The solution is string formatting which is not a best practice. I recommend replacing the last line with this:
+
+    
+word = input("Enter your password: ")
+
+if word == "seKr3t":
+    print("Welcome!")
+elif word == "":
+    print("You didn't enter anything.")
+else:
+    print("Access denied.")
+print(f"You entered {word1}, {word2}, {word3} and {word4}.")
+
 
  
 
